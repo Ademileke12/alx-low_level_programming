@@ -1,16 +1,23 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - tests function that prints if the integer is positive or negative
+ * main - prints the largest of 3 integers
  * Return: 0
  */
+
 int main(void)
 {
+	int a, b, c;
+	int largest;
 
-	int i;
+	a = 972;
+	b = -98;
+	c = 0;
 
-	i = 98;
-	positive_or_negative(i);
+	largest = largest_number(a, b, c);
+
+	printf("%d is the largest number\n", largest);
 
 	return (0);
 }
