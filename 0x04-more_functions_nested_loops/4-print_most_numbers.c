@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * print_most_numbers - a function that prints the numbers, form 0 to 9.
