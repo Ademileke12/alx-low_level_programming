@@ -1,14 +1,13 @@
-#ifndef _DOG_
-#define _DOG_
+#ifndef _DOGH_
+#define _DOGH_
 
 /**
-* strcut dog - a struct with three elements
+* struct dog - a struct with three elements
 * @name: name of dog
 * @age: age of dog
 * @owner: owner of dog
 *
-* Description: A struct that contains the details of a dog which stores
-* its name, age and owner.
+* Description: Contains the details of Dog and its owner.
 */
 struct dog
 {
