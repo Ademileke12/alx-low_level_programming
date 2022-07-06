@@ -1,1 +1,1 @@
-Structures in c
+structures abd type
